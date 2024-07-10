@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 // Schema to create a course model
-const reactiontSchema = new Schema(
+const reactionSchema = new Schema(
   {
     reactionId:{
         type: Schema.Types.ObjectId,
